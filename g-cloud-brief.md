@@ -63,19 +63,21 @@ Based on the internal review, CrozierScott's delivery work over the past year cl
 | Cloud Data Platforms | AWS, Snowflake, dbt, S3 | Data Platform Engineering |
 | AI & LLM Integration | Bedrock, Claude, ChatGPT, Azure OpenAI | AI Platform Implementation |
 | Data Engineering | ELT/ETL, APIs, automation | Data Pipeline Engineering |
-| Cloud Architecture | AWS, Azure, networking, IAM | Cloud Architecture & Landing Zones |
+| Cloud Architecture | AWS (primary), Azure (secondary, via subcontracted specialists), networking, IAM | Cloud Architecture & Landing Zones |
 | DevOps & Automation | GitHub, Jenkins, CI/CD | DevOps & CI/CD |
-| Infrastructure as Code | Terraform, Bicep, CloudFormation | Infrastructure as Code |
+| Infrastructure as Code | Terraform (primary), also CloudFormation and Bicep | Infrastructure as Code |
 | Data Governance | OpenMetadata, lineage, glossaries | Data Governance Services |
 | Analytics Platforms | Power BI, semantic models | Analytics Platform Implementation |
+
+**Note on cloud/IaC positioning:** CrozierScott is primarily an **AWS shop using Terraform**. Azure work has been delivered successfully but mostly via subcontracted specialists — this should be described honestly in service definitions (e.g. "AWS-first, with Azure delivered through our specialist partner network") rather than claimed as an equal in-house Azure capability. Similarly, Terraform is our primary IaC tool; CloudFormation and Bicep are capabilities we can and have adapted to, not our default.
 
 ### Proposed initial G-Cloud service catalogue (6, not 20)
 
 Buyers respond better to a small, focused, easy-to-evidence catalogue than a long generic one. Proposed starting list:
 
-1. Cloud Architecture & Platform Design (landing zones, governance, networking, identity)
+1. Cloud Architecture & Platform Design (AWS-first landing zones, governance, networking, identity; Azure available via specialist partners)
 2. DevOps & CI/CD Pipeline Engineering
-3. Infrastructure as Code Implementation (Terraform, Bicep, CloudFormation)
+3. Infrastructure as Code Implementation (Terraform-led; CloudFormation and Bicep also delivered)
 4. Data Engineering Pipeline Development (ETL/ELT, integration, analytics pipelines)
 5. AI Platform Implementation (Bedrock, Azure OpenAI, model integration/orchestration)
 6. Generative AI Integration Services (enterprise AI workflows)
@@ -84,16 +86,18 @@ Buyers respond better to a small, focused, easy-to-evidence catalogue than a lon
 
 - Genuine, varied delivery history across cloud architecture, DevOps, data engineering, governance and AI integration — not just one narrow skill.
 - The work is naturally "repeatable service, bespoke delivery" — exactly the model G-Cloud buyers expect from consultancies.
-- Existing project examples (as described internally) that could become case studies: a data platform build, an index/analytics platform, an AI-powered document assessment build, and a metadata/governance implementation.
+- **Cyber Essentials Plus already held.** This exceeds the mandatory baseline for our lot — G-Cloud 15 only requires standard Cyber Essentials for Lot 3 (Cyber Essentials Plus is the requirement for Lots 1a/1b, cloud hosting). Worth featuring prominently in the application rather than treating as a checkbox.
+- **Existing relationships with iMpower and TrustMark** — both organisations are heavily embedded in public sector/government-adjacent work. This is a genuine differentiator: it gives us a route to case studies and potentially client references that speak directly to public sector buyers' biggest question ("can you demonstrate previous success in our world?"), rather than needing to translate private-sector work into public-sector language.
+- Existing project examples (as described internally) that could become case studies: a data platform build, an index/analytics platform (with iMpower), an AI-powered document assessment build (with TrustMark), and a metadata/governance implementation.
 - Bespoke pricing model (day rates) is entirely normal for this type of supplier — not a weakness.
 
 ### Gaps to close before applying
 
 - **No published rate card yet** — day rates exist informally but aren't structured into a SFIA-style hierarchy (see section 5).
-- **No formal case studies written up** — the underlying project experience exists, but nothing is packaged into the 1–2 page "problem → approach → outcome → benefit" format buyers expect.
-- **Certification status needs confirming** — do we currently hold Cyber Essentials, ISO 27001, or cyber/data-protection equivalents? (Cyber Essentials is now mandatory for G-Cloud — see section 6.)
+- **No formal case studies written up** — the underlying project experience exists, but nothing is packaged into the 1–2 page "problem → approach → outcome → benefit" format buyers expect. Given the iMpower/TrustMark connection, worth asking early whether either would be willing to provide a named reference or quote, not just an anonymised case study.
+- **ISO 27001 status needs confirming** — not mandatory, but strengthens the bid if held (Cyber Essentials Plus is already confirmed — see Strengths above).
 - **No consolidated policy set** — information security, data protection/GDPR, incident response, business continuity, etc. (list in section 6).
-- **Service descriptions don't exist yet** in G-Cloud's expected style (plain, compliance-focused, buyer-outcome language — not marketing copy).
+- **Service descriptions don't exist yet** in G-Cloud's expected style (plain, compliance-focused, buyer-outcome language — not marketing copy). These should describe our actual stack honestly: AWS-first with Terraform, not a generic "AWS and Azure, any IaC tool" claim.
 - **No reusable bid library** (standard answers on security, accessibility, onboarding/offboarding, support model, business continuity, disaster recovery) — worth building once, reusable across G-Cloud, DOS and direct bids.
 
 ## 5. Pricing approach — SFIA day rates
@@ -122,8 +126,8 @@ Also needed alongside the rate card: expenses policy, definition of a "working d
 - [ ] Company registration / Digital Marketplace supplier account set up
 
 ### Certifications
-- [ ] **Cyber Essentials — now mandatory for G-Cloud 15.** For Lot 3 (our lot), suppliers without it get a 12-month grace period from contract award before suspension risk — but we should confirm our current status now, since it takes time to certify properly. *(Confirmed via CCS announcement, 5 Dec 2025.)*
-- [ ] ISO 27001 (not mandatory, but strengthens the bid if held)
+- [x] **Cyber Essentials Plus — already held.** Exceeds the mandatory G-Cloud 15 baseline for Lot 3 (standard Cyber Essentials); just keep the annual renewal on track.
+- [ ] ISO 27001 (not mandatory, but strengthens the bid if held — status to confirm)
 - [ ] Confirm Professional Indemnity / Public Liability insurance is current
 
 ### Minimum policy set to have ready
@@ -139,9 +143,10 @@ Also needed alongside the rate card: expenses policy, definition of a "working d
 ### Case studies (priority 1 — biggest differentiator for a small consultancy)
 Aim for quality over quantity — 4–5 excellent examples beats 15 thin ones. Each should cover: client challenge, our approach, technologies used, outcomes delivered, business benefits, and which service(s) it evidences. Candidate projects to write up (pending internal validation):
 - [ ] Data platform build (AWS/Snowflake/dbt) — 1–2 pages
-- [ ] AI-powered document assessment / audit platform — 1–2 pages
-- [ ] Analytics/index platform (ingest → transform → model → publish) — 1–2 pages
+- [ ] AI-powered document assessment / audit platform, **with TrustMark** — 1–2 pages; TrustMark's government-adjacent profile makes this a strong reference candidate
+- [ ] Analytics/index platform, **the iMpower Index** (ingest → transform → model → publish) — 1–2 pages; same reference value given iMpower's public sector work
 - [ ] Data governance / metadata implementation (OpenMetadata) — 1–2 pages
+- [ ] Ask TrustMark and iMpower early whether they'd provide a **named reference or quote** — a public-sector-adjacent named reference is worth more to buyers than an anonymised case study
 
 ### Technical artefacts (priority 2)
 - [ ] Reference architecture diagrams
@@ -170,21 +175,4 @@ Aim for quality over quantity — 4–5 excellent examples beats 15 thin ones. E
 
 Suggested epic breakdown — for Eddie/Scott to review and adjust before creating in Jira:
 
-- [ ] **Epic: Service catalogue & definitions** — draft the 6 service descriptions in buyer-outcome language
-- [ ] **Epic: Pricing & rate card** — agree SFIA levels, set day rates, write pricing document, expenses/working-day/minimum-engagement terms
-- [ ] **Epic: Certifications** — confirm Cyber Essentials status and start/renew certification; confirm insurance currency
-- [ ] **Epic: Policy set** — draft or update the 8 minimum policies listed in section 6
-- [ ] **Epic: Case studies** — validate project details internally, write up 4–5 case studies to template
-- [ ] **Epic: Technical artefacts** — produce reference architecture diagrams, Terraform structure examples, security/governance write-up
-- [ ] **Epic: Reusable bid library** — draft standard answers for security, accessibility, service management, onboarding/offboarding, BCP/DR, support model
-- [ ] **Epic: DOS7 scoping** — assess candidate bespoke projects against DOS suitability, decide go/no-go on a nearer-term DOS submission
-- [ ] **Epic: G-Cloud 15 application** — all prerequisites complete and ready to submit by **Friday 3 December 2027**; assemble and submit once the window opens (expected ~March 2028, to be confirmed)
-
-## Sources
-
-- [Digital Marketplace](https://www.applytosupply.digitalmarketplace.service.gov.uk/) — confirms G-Cloud 15 closed for applications; DOS7 live
-- [GOV.UK — G-Cloud buyers' guide](https://www.gov.uk/guidance/g-cloud-buyers-guide)
-- [Computer Weekly — G-Cloud 15 framework guide](https://www.computerweekly.com/feature/UK-governments-G-Cloud-15-framework-Everything-you-need-to-know)
-- [PublicTechnology — G-Cloud 14 extended to October 2026](https://www.publictechnology.net/2025/07/29/business-and-industry/g-cloud-14-extended-to-october-2026-to-give-time-to-prep-replacement/)
-- [Burges Salmon — G-Cloud 15 key changes](https://www.burges-salmon.com/articles/102lzf5/g-cloud-15-g15-framework-key-changes-for-uk-public-sector-cloud-suppliers/)
-- [Net Sec Group — Cyber Essentials mandatory for G-
+- [ ] **Epic: Service catalogue & definitions** — draft the 6 service descriptions in buyer-o
