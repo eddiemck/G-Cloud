@@ -18,7 +18,20 @@ Once approved, each `- [ ]` line below becomes one Jira issue.
 
 ---
 
-### STORY 1: Service Catalogue & Definitions
+### STORY 1: Confirm Brief & Positioning
+
+**Goal:** Get formal sign-off on the brief and its conclusions before any deliverable work starts — everything else in this epic depends on this being agreed.
+
+Tasks:
+- [ ] Circulate the G-Cloud brief and slide deck to Scott and the wider team for review
+- [ ] Confirm the 6-service catalogue is right (Cloud Architecture, DevOps/CI/CD, IaC, Data Engineering, AI Platform, Generative AI Integration)
+- [ ] Confirm the AWS-first, Terraform-led positioning is accurate and how we want to present it
+- [ ] Confirm the iMpower and TrustMark case study candidates are accurate and OK to reference externally
+- [ ] Confirm the G-Cloud vs DOS split — which of our work goes under which framework
+- [ ] Confirm the internal target date of 3 December 2027
+- [ ] Sign off the brief as the agreed baseline for all subsequent stories
+
+### STORY 2: Service Catalogue & Definitions
 
 **Goal:** Define CrozierScott's 6 G-Cloud service listings in plain, buyer-outcome, compliance-first language — not marketing copy.
 
@@ -32,7 +45,7 @@ Tasks:
 - [ ] Strip marketing language from all 6 drafts; align wording with G-Cloud's service definition template
 - [ ] Confirm each definition covers: onboarding/offboarding, support model, service constraints, exit/data access
 
-### STORY 2: Pricing & Rate Card
+### STORY 3: Pricing & Rate Card
 
 **Goal:** Publish a transparent, SFIA-aligned day rate card CrozierScott is happy to be locked into for the framework term.
 
@@ -45,7 +58,7 @@ Tasks:
 - [ ] Confirm VAT statement
 - [ ] Internal sign-off on rate card before publishing (rates are fixed once submitted)
 
-### STORY 3: Certifications
+### STORY 4: Certifications
 
 **Goal:** Confirm and maintain the certifications G-Cloud requires or rewards.
 
@@ -56,7 +69,7 @@ Tasks:
 - [ ] Confirm Public Liability insurance is current and at an adequate level
 - [ ] File all certification evidence centrally, ready for application assembly
 
-### STORY 4: Policy Set
+### STORY 5: Policy Set
 
 **Goal:** Have all 8 minimum policies drafted, approved, and version-controlled.
 
@@ -71,7 +84,7 @@ Tasks:
 - [ ] Draft/update Modern Slavery Statement
 - [ ] Internal sign-off and version control for all 8 policies
 
-### STORY 5: Case Studies & References
+### STORY 6: Case Studies & References
 
 **Goal:** Produce 4–5 buyer-ready case studies and secure named references where possible — the single biggest differentiator for a small consultancy.
 
@@ -85,7 +98,7 @@ Tasks:
 - [ ] Approach TrustMark about providing a named reference or quote
 - [ ] Approach iMpower about providing a named reference or quote
 
-### STORY 6: Technical Artefacts
+### STORY 7: Technical Artefacts
 
 **Goal:** Produce the supporting technical evidence referenced by service definitions and case studies.
 
@@ -96,7 +109,7 @@ Tasks:
 - [ ] Write a security & governance approach document
 - [ ] Produce handover / documentation templates
 
-### STORY 7: Reusable Bid Library
+### STORY 8: Reusable Bid Library
 
 **Goal:** Build standard reusable answers for common bid questions, usable across G-Cloud, DOS and direct bids — write once, reuse everywhere.
 
@@ -109,7 +122,7 @@ Tasks:
 - [ ] Draft standard answer — Business continuity / disaster recovery
 - [ ] Draft standard answer — Support model
 
-### STORY 8: DOS7 Scoping
+### STORY 9: DOS7 Scoping
 
 **Goal:** Decide whether any bespoke, build-from-scratch work should be pursued via DOS7 as a nearer-term route (DOS7 is live now, reopens every 18 months).
 
@@ -119,23 +132,6 @@ Tasks:
 - [ ] Decide go/no-go on pursuing a DOS7 submission
 - [ ] If go: identify target opportunity and the relevant DOS7 window
 
-### STORY 9: G-Cloud 15 Application Assembly & Submission
+### STORY 10: G-Cloud 15 Application Assembly & Submission
 
-**Goal:** Assemble everything and submit the moment the window opens — target fully ready by 3 December 2027.
-
-Tasks:
-- [ ] Monitor CCS/Digital Marketplace for the G-Cloud 15 reopening announcement
-- [ ] Set up/confirm the Digital Marketplace supplier account
-- [ ] Assemble pricing document, service definitions and T&Cs into the submission package
-- [ ] Attach certification evidence and the full policy set
-- [ ] Final internal review and sign-off before submission
-- [ ] Submit application within the window
-- [ ] Track application status post-submission
-
----
-
-## Review notes for Eddie/Scott
-
-- Adjust story/task wording, owners, due dates and priorities before this goes into Jira.
-- Once approved, say the word and these will be created as: 1 Epic → 9 Stories → the sub-tasks listed under each, all in the `CROZ` project.
-- Nothing has been created in Jira yet.
+**Goa
