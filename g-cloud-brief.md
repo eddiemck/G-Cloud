@@ -33,7 +33,9 @@ This is the most important correction to the ChatGPT research: **the application
 - G-Cloud 15 is being run as an **Open Framework** under the new Procurement Act 2023, structured as three terms (18 months + 18 months + 12 months) over its 4-year life. New suppliers get a fresh chance to apply at the start of each new term — so the **next opportunity for a new supplier like us is expected around 18 months after go-live, i.e. roughly early-to-mid 2028** (exact date to be confirmed nearer the time).
 - The outgoing framework, G-Cloud 14, has been extended to October 2026 as a bridge, but it is **not open to new suppliers** — it only allows existing G-Cloud 14 suppliers to keep trading.
 
-**What this means for us:** we're not racing to submit something in the next few weeks. We have real runway (~18 months+) to prepare a genuinely strong application — case studies, policies, certifications, service descriptions — rather than rushing. This should be treated as a 2026–2027 preparation project aimed at being ready the moment the window reopens, not a July 2026 deadline.
+**What this means for us:** we're not racing to submit something in the next few weeks. We have real runway (~18 months+) to prepare a genuinely strong application — case studies, policies, certifications, service descriptions — rather than rushing.
+
+**Internal target date: Friday 3 December 2027.** The window itself isn't expected to open until around March 2028 (18 months after go-live, per the sources below), and nothing published so far suggests it will open earlier than that. Aiming to have everything fully ready by 3 December 2027 gives a comfortable buffer ahead of that — genuinely ready on day one, not scrambling once the window opens. As CCS publishes more detail on the reopening process through 2027, we should revisit this date and tighten it if needed.
 
 **A nearer-term alternative — DOS:** Digital Outcomes and Specialists (DOS) is a separate, related framework for bespoke digital outcomes and specialist teams (see section 3). Its latest version, **DOS7, went live 1 April 2026 and reopens every 18 months** for new suppliers. If some of our work (e.g. building a bespoke AI application from scratch, as opposed to configuring an established approach) fits DOS better than G-Cloud, this is a nearer-term route worth scoping in parallel.
 
@@ -161,7 +163,7 @@ Aim for quality over quantity — 4–5 excellent examples beats 15 thin ones. E
 
 **Dual-track, not sequential:**
 
-1. **Track A — G-Cloud 15 readiness (target: ready well before the ~2028 reopening).** Build the service catalogue, rate card, policies, certifications and case studies at a sensible pace over the next 12–18 months, so we're first in line the moment applications reopen. No need to rush.
+1. **Track A — G-Cloud 15 readiness (target: fully ready by Friday 3 December 2027).** Build the service catalogue, rate card, policies, certifications and case studies at a sensible pace between now and then, so we're first in line the moment applications reopen (expected ~March 2028). No need to rush.
 2. **Track B — DOS7 scoping (nearer-term, live now, reopens every 18 months).** Assess whether any of our more bespoke build-from-scratch work (e.g. a brand-new AI application for a specific client) would be better suited to a DOS submission sooner, since DOS7 is open now.
 
 ## 8. Checklist for Jira epics/tasks
@@ -176,7 +178,7 @@ Suggested epic breakdown — for Eddie/Scott to review and adjust before creatin
 - [ ] **Epic: Technical artefacts** — produce reference architecture diagrams, Terraform structure examples, security/governance write-up
 - [ ] **Epic: Reusable bid library** — draft standard answers for security, accessibility, service management, onboarding/offboarding, BCP/DR, support model
 - [ ] **Epic: DOS7 scoping** — assess candidate bespoke projects against DOS suitability, decide go/no-go on a nearer-term DOS submission
-- [ ] **Epic: G-Cloud 15 application** — assemble and submit once the next application window opens (~2028, to be confirmed)
+- [ ] **Epic: G-Cloud 15 application** — all prerequisites complete and ready to submit by **Friday 3 December 2027**; assemble and submit once the window opens (expected ~March 2028, to be confirmed)
 
 ## Sources
 
@@ -185,6 +187,4 @@ Suggested epic breakdown — for Eddie/Scott to review and adjust before creatin
 - [Computer Weekly — G-Cloud 15 framework guide](https://www.computerweekly.com/feature/UK-governments-G-Cloud-15-framework-Everything-you-need-to-know)
 - [PublicTechnology — G-Cloud 14 extended to October 2026](https://www.publictechnology.net/2025/07/29/business-and-industry/g-cloud-14-extended-to-october-2026-to-give-time-to-prep-replacement/)
 - [Burges Salmon — G-Cloud 15 key changes](https://www.burges-salmon.com/articles/102lzf5/g-cloud-15-g15-framework-key-changes-for-uk-public-sector-cloud-suppliers/)
-- [Net Sec Group — Cyber Essentials mandatory for G-Cloud 15](https://netsecgroup.io/guides/g-cloud-15-cyber-essentials-required)
-- [PublicTechnology — DOS7 preview](https://www.publictechnology.net/2025/04/07/business-and-industry/ccs-previews-digital-and-outcomes-specialists-7-framework-with-six-year-term-and-14-4bn-value/)
-- Internal source material: two ChatGPT conversations provided by Eddie (July 2026), used for CrozierScott capability/strengths context — treated as unverified internal input, not an external source
+- [Net Sec Group — Cyber Essentials mandatory for G-
